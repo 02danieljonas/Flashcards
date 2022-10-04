@@ -1,25 +1,43 @@
-# Project Proposal
+# **Project Proposal**
 
-Pod Members: **Osaru Elaiho, Daniel Jonas, & Hayley Simmons**
-
-
-## Problem Statement
-
-According to an article from [Education World](https://www.educationworld.com/teachers/fundamental-gap-surprising-number-students-don't-know-how-to-study-effecively), there are many students in high school & college who don't know how to study; either lacking study skills or studying inefficiently.
+Team Members:   **Osaru Elaiho**  •  **Daniel Jonas**  •  **Hayley Simmons**
 
 
-## Description
 
-The purpose of this project is to provide a simple learning tool that is completely free to use, while helping to provide one of the best methods of studying: information retrieval.
+## **Problem Statement**
 
-Information retrieval, as described by [Cornell University](https://lsc.cornell.edu/how-to-study/studying-for-and-taking-exams/effective-study-strategies/), means to actively recall information from memory: an effective practice for long-term learning. It's considered one of the best methods of study because it helps identify what someone does or doesn't understand.
+Despite being taught that studying leads to academic success, students are instead spoon-fed information that reflects on our tests & quizzes. Consequently, many students adopt the habit of learning the material without dedicating any outside hours, with the goal of just getting by.
 
-This project will help users practice their information retrieval by making the user take their time in recalling the information before flipping a card over. Users will be able to sign up, create a profile, & create sets of digital flashcards based on any subject they choose. The flashcards can be then reviewed based on the mode the user chooses. The website will be searchable by anyone for other sets of flashcards or other user profiles.
+In short, ***students don't know how to learn/study.***
+
+According to an article from *[The Washington Post](https://www.washingtonpost.com/lifestyle/2019/04/15/many-students-dont-know-how-study-heres-how-parents-can-help/)*:
+
+*"Researchers and experienced educators have found that often **students don’t have good study habits and skills**, or that **they rely on strategies that don’t work...**"*
+
+*[Education World](https://www.washingtonpost.com/lifestyle/2019/04/15/many-students-dont-know-how-study-heres-how-parents-can-help/)* adds on to this statement:
+
+*"…some approaches that teachers and parents recommend for studying such as **re-reading**, **highlighting** or **summarizing material**, might **not actually be effective**, especially over time."*
 
 
-## Expected Features List
 
-##### **Terms Used:**
+## **Description**
+
+The 3 main goals of our project are to:
+1.  Create a ***free*** study tool, with a simple & straightforward UI;
+2.  Provide a way for users to self-test their knowledge;
+3.  & aid in the use of the **retrieval practice** method so that users memorize, retain & retrieve information more efficiently.
+
+**Retrieval practice** means ***to actively recall information from memory***.
+
+It's one of the most efficient study methods, according to sources such as *[Education Corner](https://www.educationcorner.com/retrieval-practice/)*, but it can also be one of the most challenging; it requires a deep level of focus/concentration. However, it's efficient because it encourages long-term learning, & there are many ways to practice retrieving information: *practice tests*, *quizzes*, *flashcards*, etc.
+
+Users will be able to sign up, create a profile, & create sets of digital flashcards based on any subject they choose. The flashcards can be then reviewed based on the mode the user chooses. The website will be searchable for other sets of flashcards or other user profiles.
+
+
+
+## **Expected Features List**
+
+##### Terms Used:
 - **Inverse View (Included in all modes by default)**
     - *term --> **flip** --> definition*
     - *definition --> **flip** --> term*
@@ -44,9 +62,7 @@ This project will help users practice their information retrieval by making the 
 - **Private**
     - when a set/folder is NOT searchable or viewable by others
     - only viewable by creating a shareable link (anyone can see)
-__________________________________________________________________________
-
-##### **Key features:**
+##### Key features:
 - User can create an account/make a profile.
 - **Registered** users can:
     - Create sets
@@ -56,9 +72,7 @@ __________________________________________________________________________
         - *Can create folders for organization*
         - *Can view their sets (in the default mode) after saving them*
 - **Unregistered** users will only be able to view the landing page.
- __________________________________________________________________________
- 
-##### **Stretch features:**
+##### Stretch features:
 - Website is responsive.
 - **Unregistered** users can:
     - Search the site for **public** sets & other users
@@ -67,6 +81,7 @@ __________________________________________________________________________
     - Do the above tasks
     - Create sets
         - *Can hide the cards while in the creation process (adds the convenience of less scrolling when there's many cards)*
+        - *Can import notes from other platforms (ex. Google Docs) into a set*
     - Highlight items in their finished sets
     - Customize their sets:
         - *Card colors*
@@ -79,9 +94,9 @@ __________________________________________________________________________
         - *Quiz*
 
 
-## Related Work
+## **Related Work**
 
-[Quizlet](https://quizlet.com/latest) is the main inspiration for this project. We want ours to stand out by: 
+**[Quizlet](https://quizlet.com/latest)** is our main inspiration (& competition) for this project. We want Flashi to stand out by: 
   - Offering every single feature for free (Quizlet wants users to pay for the card-customizing & highlighting features);
   - Making the user set a time limit between flipping the cards (Quizlet doesn't have this feature);
   - & having a simpler UI for things like:
@@ -90,6 +105,6 @@ __________________________________________________________________________
       - & simplifying the user profile interface to only include profile info in one tab, & the user's folders/flashcards in                           another (if the user made their stuff public; otherwise that section will be empty). 
 
 
-## Open Questions
+## **Open Questions**
 
-We will need to research many things, such as: how to save the user's progress if they need to finish their flashcards later, & how to create folders for organizing. For the stretch features, we will need to research how to implement timers, the customizing options, & basically everything else there.
+We will need to research many things, such as how to save the user's progress if they need to finish their flashcards later, & how to create folders for organizing. For the stretch features, we will need to research how to implement timers, the customizing options, & basically everything else there.

@@ -1,24 +1,28 @@
-# SITE Capstone Project
+# Capstone Project
 
 SITE Course Year: **2022**
 
-Cohort: **Workday ~ Group 11**
+Cohort: **Workday**
 
-Team Member Names: **Osaru Elaiho, Daniel Jonas, & Hayley Simmons**
+Team Members:  **Osaru Elaiho**  •  **Daniel Jonas**  •  **Hayley Simmons**
 
-Mentors Names: **Jenny Tang & Michael Walsh**
+Mentors:  **Coren Burton**  •  **Jenny Tang**  •  **Michael Walsh**
 
-Project Code Repository Links
 
-* [Frontend Repo Link]()
-* [Backend Repo Link]()
+## **Project Overview**
 
-## Project Overview
+The 3 main goals of our project are to:
+1.  Create a ***free*** study tool, with a simple & straightforward UI;
+2.  Provide a way for users to self-test their knowledge;
+3.  & aid in the use of the **retrieval practice** method so that users memorize, retain & retrieve information more efficiently.
 
-The purpose of this project is to provide a simple learning tool for students to use while studying. The key feature is the student being able to create digital flashcards in order to memorize & learn their material in an easy way. They can be saved for later, & accessed anytime.
+Users will be able to sign up, create a profile, & create sets of digital flashcards based on any subject they choose. The flashcards can be then reviewed based on the mode the user chooses. The website will be searchable for other sets of flashcards or other user profiles.
 
-Deployment Website: **Add Link to Deployed Project**
 
-### Open-source libraries used
+## **Code Repository Links**
+* [Front-End Repo](https://github.com/Diglettss/Flashcards/tree/main/flashcards-ui)
+* [Back-End Repo](https://github.com/Diglettss/Flashcards/tree/main/flashcards-api)
 
-- Add any links to open-source libraries used in your project.
+
+## **Deployed Website**
+[flashicards.com](https://flashicards.com/)

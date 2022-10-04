@@ -1,0 +1,35 @@
+//For this styling to be effective the loop calling flashcard row must have a div.className flashcards
+.flashcard-row-container {
+    display: flex;
+    flex-direction: column;
+    // display: flex;
+    // flex-wrap: nowrap;
+    // justify-content: start;
+    // align-content: start;
+    .flashcard-row {
+        display: flex;
+        margin-top: 100px;
+        input {
+            width: 40px;
+            cursor: pointer;
+        }
+        .card {
+            cursor: pointer;
+            margin: 0 auto;
+            width: 30%;
+            text-align: center;
+            display: inline-block;
+            padding: 20px 50px;
+        }
+
+        .term-card {
+            background-color: rgb(161, 251, 251);
+            .term {
+                margin: auto 0;
+            }
+        }
+        .definition-card {
+            background-color: rgb(169, 247, 221);
+        }
+    }
+}

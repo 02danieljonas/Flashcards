@@ -1,0 +1,86 @@
+.create-set {
+    // background-color: aliceblue;
+    // margin-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    // height: calc(100vh - 100px);
+    .title {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2em;
+        margin-bottom: 0.67em;
+        font-weight: 700;
+        // padding: 0;
+        border: 0px;
+    }
+    .description {
+        font-size: 1.17em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+        font-weight: bold;
+    }
+    .title,
+    .description {
+        display: block;
+        text-align: center;
+        padding: 12px 18px;
+        color: white;
+        border-radius: 4px;
+        background: #000000;
+    }
+
+    .add-buttons {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        button {
+            display: inline-block;
+        }
+        .add-cards {
+            background-color: blue;
+        }
+        .add-cards-text {
+            background-color: blue;
+        }
+    }
+    .save-button {
+        margin: 20px auto;
+    }
+    .flashcard-row-empty {
+        min-height: 35vh;
+    }
+    .add-card-as-text {
+        // background-color: aquamarine;
+        .delimiter-row {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+            .text-delimiter-input,
+            .flashcard-delimiter-input {
+                width: 2rem;
+                text-align: center;
+                margin-left: 10px;
+            }
+        }
+        .card-text-input {
+            display: block;
+            margin: auto;
+            width: 800px;
+            height: 480px;
+            margin-bottom: 50px;
+        }
+    }
+    
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}

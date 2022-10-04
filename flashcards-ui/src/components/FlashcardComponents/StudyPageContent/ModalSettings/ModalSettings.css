@@ -1,0 +1,26 @@
+.settings-modal .overlay {
+  z-index: 1;
+  position: fixed;
+  background-color: rgba(255, 235, 205, 0.3);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.settings-modal .settings-box {
+  border-radius: 4px;
+  z-index: 2;
+  position: fixed;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+.settings-modal .settings-box .submit-button-setting {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=ModalSettings.css.map */

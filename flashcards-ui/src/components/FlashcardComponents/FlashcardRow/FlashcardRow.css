@@ -1,0 +1,29 @@
+.flashcard-row-container {
+  display: flex;
+  flex-direction: column;
+}
+.flashcard-row-container .flashcard-row {
+  display: flex;
+  margin-top: 100px;
+}
+.flashcard-row-container .flashcard-row input {
+  width: 40px;
+  cursor: pointer;
+}
+.flashcard-row-container .flashcard-row .card {
+  cursor: pointer;
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  padding: 20px 50px;
+}
+.flashcard-row-container .flashcard-row .term-card {
+  background-color: rgb(161, 251, 251);
+}
+.flashcard-row-container .flashcard-row .term-card .term {
+  margin: auto 0;
+}
+.flashcard-row-container .flashcard-row .definition-card {
+  background-color: rgb(169, 247, 221);
+}/*# sourceMappingURL=FlashcardRow.css.map */

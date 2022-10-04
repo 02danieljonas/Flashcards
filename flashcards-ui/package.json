@@ -1,0 +1,31 @@
+{
+  "name": "flashcards-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.4",
+    "@chakra-ui/react": "^2.2.4",
+    "@chakra-ui/theme-tools": "^2.0.7",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "axios": "^0.27.2",
+    "framer-motion": "^6.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2.0.0",
+    "depcheck": "^1.4.3",
+    "lorem-ipsum": "^2.0.8",
+    "vite": "^3.0.0"
+  }
+}

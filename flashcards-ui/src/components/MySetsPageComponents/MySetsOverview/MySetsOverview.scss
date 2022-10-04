@@ -1,0 +1,70 @@
+.my-sets-page {
+    margin-top: 100px;
+    padding: 40px 20px;
+    // margin-top: 80px;
+    // background-color: aliceblue;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    .label-search-input{
+        margin-left: 5vw;
+        font-size: large;
+        // padding: 10px;
+    }
+
+    .filter-container {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        .search-input {
+            padding-left: 20px;
+            margin-bottom: 20px;
+            width: 448px;
+            height: 45px;
+            border-radius: 10px;
+
+        }
+        .drop-down{
+            height: min-content;
+            width: 448px;
+            height: 45px;
+            font-size: larger;
+        }
+    }
+
+    .set-container {
+        cursor: pointer;
+        width: 80vw;
+        padding: 10px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        border-radius: 10px;
+
+        margin-bottom: 20px;
+        // height: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: antiquewhite;
+        // font-size: 14pt;
+        div {
+            display: inline-block;
+        }
+        .name-and-term-num {
+            width: 200px;
+        }
+        * {
+            overflow-wrap: break-word;
+        }
+
+        .set-name {
+            font-weight: bold;
+            font-size: 25pt;
+        }
+    }
+}

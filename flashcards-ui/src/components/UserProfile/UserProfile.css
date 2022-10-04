@@ -1,0 +1,44 @@
+.popup {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background: gray;
+}
+.popup .popup-form {
+  min-height: 600px;
+  width: 520px;
+  padding: 24px 36px 0;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background: rgb(116, 228, 234);
+}
+.popup .form-input {
+  height: 50px;
+  padding: 0 15px;
+  font-size: 16px;
+  border: 1px solid black;
+  width: 100%;
+  background: transparent;
+  color: black;
+}
+.popup label {
+  margin-bottom: 500px;
+  color: black;
+}
+.popup button {
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  padding: 12px 18px;
+  border-radius: 4px;
+  background: #000000;
+  color: #fff;
+}/*# sourceMappingURL=UserProfile.css.map */

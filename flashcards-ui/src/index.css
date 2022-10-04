@@ -1,0 +1,12 @@
+.hidden {
+    display: none!important;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+.App {
+    margin-top: 64px;
+}
